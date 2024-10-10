@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(OIP.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+    display: flex;
+    color: rgb(218, 146, 13);
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    width: 50rem;
+    padding-left: 20rem;
+    margin: -2.5rem;
+    
+}
+.navbar{
+    display: flex
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3S; 
+}
+.navbar a:hover{
+    color: orange;
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding-left: 56rem;
+}
+.srch{
+    background-color: transparent;
+    height: 2rem;
+    border-color: orange;
+}
+.btn{
+    width: 5rem;
+    transition: 0.3s;
+    
+}
+.btn:hover{
+    background-color: orange;
+    color: aqua;
+}
+.body{
+   color: white;
+   font-size: 80px;
+   text-align: center;
+   margin: 30px;
+   padding-top: 90px; 
+}
+.body2{
+    color: orange;
+    width: 50rem;
+    text-align: center;
+    padding-left: 300px ;
+}
+.text{
+    color: papayawhip;
+}
